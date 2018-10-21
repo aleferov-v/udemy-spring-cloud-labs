@@ -1,5 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="lab1"/>
-<aop-project name="lab-3-server"/>
-</aop-reference-model>
+<aop-reference-model/>

@@ -1,8 +1,0 @@
-package com.springcloud.tutorial.team;
-
-import org.springframework.data.repository.CrudRepository;
-
-@RestResource
-public interface TeamRepository extends CrudRepository<Team, Long> {
-
-}

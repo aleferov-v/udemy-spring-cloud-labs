@@ -1,7 +1,0 @@
-package com.springcloud.tutorial.team;
-
-import org.springframework.data.repository.CrudRepository;
-
-public interface PlayersRepository extends CrudRepository<Player, Long> {
-
-}

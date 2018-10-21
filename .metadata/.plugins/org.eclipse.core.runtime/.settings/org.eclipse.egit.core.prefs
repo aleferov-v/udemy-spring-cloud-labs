@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=/Users/user/tutorials/spring/udemy/microservicesWithSpringCloud/workspace_labs/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:
 RepositorySearchDialogSearchPath=/Users/user/git
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

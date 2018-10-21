@@ -1,0 +1,10 @@
+package com.springcloud.tutorial.team;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PlayerController {
+
+	
+	
+}

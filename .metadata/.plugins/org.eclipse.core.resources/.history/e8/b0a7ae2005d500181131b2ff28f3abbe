@@ -1,0 +1,19 @@
+package com.springcloud.tutorial.team;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+//@RestController
+public class PlayerController {
+
+	@Autowired
+	PlayersRepository repo;
+	
+	@GetMapping("/players")
+	public Iterable<Player> getAllPlayers() {
+		return repo.findAll(); 
+	}
+	
+	
+}

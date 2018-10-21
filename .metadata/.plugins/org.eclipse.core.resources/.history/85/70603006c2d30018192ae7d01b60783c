@@ -1,0 +1,18 @@
+package com.springcloud.tutorial.team;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+
+@Entity
+public class Player {
+
+	@javax.persistence.Id
+	@GeneratedValue
+	private long Id;
+	
+	private String name;
+	
+	private String position;
+	
+	
+}

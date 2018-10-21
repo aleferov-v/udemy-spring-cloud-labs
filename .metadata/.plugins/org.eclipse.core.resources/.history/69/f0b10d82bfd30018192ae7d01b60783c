@@ -1,0 +1,16 @@
+package com.springcloud.tutorial.team;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TeamController {
+
+	@GetMapping("/teams")
+	public List<Team> getAllTeams() {
+		
+	}
+	
+}

@@ -6,7 +6,7 @@ eureka:
 spring:
   profiles: subject
   application:
-    name: subject
+    name: lab-4-subject
 words: I,You,He,She,It
 server:
   port: ${PORT:${SERVER_PORT:0}}
@@ -15,7 +15,7 @@ server:
 spring:
   profiles: verb
   application:
-    name: verb
+    name: lab-4-verb
 words: ran,knew,had,saw,bought
 server:
   port: ${PORT:${SERVER_PORT:0}}
@@ -24,7 +24,7 @@ server:
 spring:
   profiles: article
   application:
-    name: article
+    name: lab-4-article
 words: a,the
 server:
   port: ${PORT:${SERVER_PORT:0}}
@@ -33,7 +33,7 @@ server:
 spring:
   profiles: adjective
   application:
-    name: adjective
+    name: lab-4-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 server:
   port: ${PORT:${SERVER_PORT:0}}
@@ -42,7 +42,7 @@ server:
 spring:
   profiles: noun
   application:
-    name: noun
+    name: lab-4-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
 server:
   port: ${PORT:${SERVER_PORT:0}}
